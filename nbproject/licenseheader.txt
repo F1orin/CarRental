@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}${nameAndExt} ${date?date?string("yyyy/MM/dd")}
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}Copyright (C) ${date?date?string("yyyy")} ${project.organization!user}.
+${licensePrefix?replace(" +$", "", "r")}
+<#if licenseLast??>
+${licenseLast}
+</#if>
