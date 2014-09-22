@@ -3,6 +3,8 @@ CarRental
 
 *Final project for Bionic University Java SE program*
 
+![Screenshot_1](/src/java/Screenshot_1.png)
+
 #### Features:
 - Information is stored in MySQL database with access via JDBC;
 - GoF (Factory Method, Command, Singleton) and MVC patterns used;
